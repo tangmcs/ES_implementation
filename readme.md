@@ -20,10 +20,10 @@ This code was used to create the non-plastic baselines for [Meta-Learning throug
 First, install dependencies. Use `Python >= 3.8`:
 ```
 # clone project   
-git clone https://github.com/enajx/ES
+git clone https://github.com/enajx/ES_implementation
 
 # install dependencies   
-cd ES 
+cd ES_implementation 
 pip install -r requirements.txt
  ```   
  Next, use `train_static.py` to train an agent. You can train any of OpenAI Gym's or pyBullet environments:
