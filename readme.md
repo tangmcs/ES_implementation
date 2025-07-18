@@ -30,11 +30,11 @@ pip install -r requirements.txt
  ```
 
 # train agent to solve the racing car
-python train_static.py --environment CarRacing-v0
+python train_static.py --environment CarRacing-v2
 
 
 # train agent specifying evolution parameters, eg. 
-python train_static.py --environment CarRacing-v0 --generations 300 --popsize 200 --print_every 1 --lr 0.2 --sigma 0.1 --decay 0.995 --threads -1
+python train_static.py --environment CarRacing-v2 --generations 300 --popsize 200 --print_every 1 --lr 0.2 --sigma 0.1 --decay 0.995 --threads -1
 
 ```
 
