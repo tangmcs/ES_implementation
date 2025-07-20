@@ -79,7 +79,7 @@ xvfb-run -a -s "-screen 0 1400x900x24 +extension RANDR" -- python train_static.p
 
 ## Some notes on training performance
 
-In the paper we have tested the CarRacing-v0 and AntBulletEnv-v0 environments. For both of them we have written custom functions to bound the action activations;
+We have tested the CarRacing-v2 and AntBulletEnv-v0 environments. For both of them we have written custom functions to bound the action activations;
 the rest of the environments have a simple clipping mechanism to bound their actions. Environments with a continuous action space (ie. *Box*)
 are likely to benefit from a continous scaling -rather than clipping- of their action spaces, either with a custom activation function or with 
 Gym's RescaleAction wrapper.
